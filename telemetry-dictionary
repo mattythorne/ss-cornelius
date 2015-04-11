@@ -1,0 +1,19 @@
+
+Command					Description
+
+BLED ON					Blue LOS beacon on
+BLED OFF				Blue LOS beacon off
+RLED ON					Bottom attitude beacon on
+RLED OFF				Bottom attitude beacon off
+GLED ON					Top attitude beacon on
+GLED OFF				Top attitude beacon off
+BRAKE					Apply propulsive brake
+PROPULSION ON			Propulsion on
+PROPULSION OFF			Propulsion off
+ATTADJ xxx,xxx,xxx		Adjust attitude a,b,c in degrees
+PANIC!					Satellite is not in sight start emergency recovery
+TAKEPHOTO				Take photo
+TAKEVIDEO xxx			Take video xxx length in seconds
+SIGNALLEVEL?			Get telemetry signal level in decibels
+SIGNALFREQ?				Get telemetry signal frequency MHz
+DISTANCE?				Get Distance of satellite in metres

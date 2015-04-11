@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<cubeconfiguration>
+	<telemetry>
+		<serverip>192.168.0.20</serverip>
+		<serverport>60000</serverport>
+		<partnerip>10.10.0.100</partnerip>
+		<partnerport>60000</partnerport>
+	</telemetry>
+</cubeconfiguration>

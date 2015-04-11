@@ -1,0 +1,16 @@
+
+// Create a new raspbian image
+	sudo dd bs=1m if=r.img of=/dev/disk2
+
+// Copy the latest jar to the cube
+	cd Documents/Projects/java/Cornelius/dist
+	scp cornelius.jar pi@192.168.0.12:/home/pi/
+
+// SSH into the cube
+	ssh pi@10.10.0.100
+	
+// Run the cube software
+	sudo java -jar cornelius.jar -cube cube.xml
+
+// VNC into the cube
+	vncserver :0 -geometry 1920x1080 -depth 24
